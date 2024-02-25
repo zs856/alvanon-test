@@ -81,5 +81,5 @@ def test_numbers_with_non_integer_elements():
     s = Solution()
     nums = [1, 2, 3, "c", "a"]
     res, u = s.calculate_maximum_u(nums=nums)
-    assert res == nums
+    assert res == [1, 2, 3, "c", "a"]
     assert u == None
