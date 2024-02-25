@@ -1,5 +1,5 @@
 ## Setup
-I am using `Poetry` to manage my development environment. If you are also using `Poetry`, you can configure and install the environment by using `Poetry install`.
+I am using  [`Poetry`](https://github.com/python-poetry/poetry)to manage my development environment. If you are also using `Poetry`, you can configure and install the environment by using `Poetry install`.
 My development environment is:
 - `MacOS Monterey`
 - `Python 3.12`
