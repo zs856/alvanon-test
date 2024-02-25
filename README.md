@@ -1,3 +1,16 @@
+## Setup
+I am using `Poetry` to manage my development environment. If you are also using `Poetry`, you can configure and install the environment by using `Poetry install`.
+My development environment is:
+- `MacOS Monterey`
+- `Python 3.12`
+- The only additional dependency I install is `Pytest`
+
+1. **Install Dependencies:**
+Run the following command to install your package’s dependencies: ```poetry install```
+
+2. **Run Tests:**
+Execute your tests using the following command: ```poetry run pytest```
+
 ## Q1
 
 ### Intuition
