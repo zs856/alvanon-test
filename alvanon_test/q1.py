@@ -54,7 +54,7 @@ class Solution:
         u = 1
         res_v.sort()
         res_r.sort()
-        print(res_v, res_r)
+        print(f"S:{res_v}, elements will be used in reciprocals: {res_r}")
         for i in range(n):
             if i == n - 1:
                 if res_v:
@@ -80,4 +80,4 @@ if __name__ == "__main__":
     s = Solution()
     nums = [1, 2, 3, 4, 5]
     res = s.calculate_maximum_u(nums)
-    print(res)
+    print(f"Rearrange: {res[0]}, U: {res[1]}")
